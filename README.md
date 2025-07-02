@@ -4,26 +4,31 @@ No more rewriting the singleton logic in every script — just inherit and go!
 ### ⚡How To Use:
 - Download the script and import it into your Unity project.
 
-** For MonoBehaviour classes:	**
+For MonoBehaviour classes:
+
 Inherit your class from Singleton<T>, like this:
 
 public class GameManager : Singleton<GameManager> { }
 Then call it easily from anywhere:
-GameManager.Instance.DoSomething();
 
-Make Sure to Call Awake
-protected override void Awake()
-{
-    base.Awake();
-    // Other Codes
-}
+> GameManager.Instance.DoSomething();
+
+Make Sure to Call Awake:
+
+> protected override void Awake()
+> {
+>    base.Awake();
+>    // Other Codes
+> }
 
 To persist the instance across scenes, override ShouldPersist:
-protected override bool ShouldPersist => true;
+
+> protected override bool ShouldPersist => true;
 
 For pure C# (non-MonoBehaviour) singletons:
 Use PureSingleton<T>, like this:
-public class ConfigManager : PureSingleton<ConfigManager> { }
+
+> public class ConfigManager : PureSingleton<ConfigManager> { }
 
 
 Just a guy making games.
