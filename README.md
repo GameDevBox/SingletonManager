@@ -40,7 +40,7 @@ game-related, sometimes not.
 
 🔥follow my YouTube @GameDevBox to find more Tutorials and Tips: [GameDevBox](https://www.youtube.com/@GameDevBox)
 
-🔥See the tutorial for how you can set it up: https://youtu.be/Z2M0USjzSDw
+🔥See the tutorial for how you can set it up: https://youtu.be/3ZOPTAdyc2c
 
 ## Social Media: 
 • [X/Twitter](https://x.com/ArianKhatiban)
