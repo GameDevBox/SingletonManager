@@ -8,7 +8,7 @@ For MonoBehaviour classes:
 
 Inherit your class from Singleton<T>, like this:
 
-> public class GameManager : Singleton<<GameManager>> { }
+> public class GameManager : Singleton<<<GameManager></GameManager>> { }
 
 Then call it easily from anywhere:
 
