@@ -31,6 +31,8 @@ Use PureSingleton<T>, like this:
 
 > public class ConfigManager : `PureSingleton<ConfigManager>` { }
 
+📺 Watch the full tutorial on YouTube:
+https://youtu.be/3ZOPTAdyc2c
 
 Just a guy making games.
 Exploring the world of game development with Unity tutorials, coding tips, and shader magic, and fixing bugs.
