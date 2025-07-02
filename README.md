@@ -10,10 +10,6 @@ Inherit your class from Singleton<T>, like this:
 
 > public class GameManager : `Singleton<GameManager>` { }
 
-Then call it easily from anywhere:
-
-> GameManager.Instance.DoSomething();
-
 Make Sure to Call Awake:
 
 > protected override void Awake()
@@ -25,6 +21,10 @@ Make Sure to Call Awake:
 To persist the instance across scenes, override ShouldPersist:
 
 > protected override bool ShouldPersist => true;
+
+Then call it easily from anywhere:
+
+> GameManager.Instance.DoSomething();
 
 For pure C# (non-MonoBehaviour) singletons:
 Use PureSingleton<T>, like this:
