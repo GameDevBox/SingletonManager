@@ -2,7 +2,7 @@
 A reusable, generic Singleton pattern for Unity using MonoBehaviour and pure C# class support.
 No more rewriting the singleton logic in every script — just inherit and go!
 ### ⚡How To Use:
-- Download the script and import it into your Unity project.
+- Download the Singleton script and import it into your Unity project.
 
 For MonoBehaviour classes:
 
