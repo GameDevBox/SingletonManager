@@ -8,7 +8,7 @@ For MonoBehaviour classes:
 
 Inherit your class from Singleton<T>, like this:
 
-> public class GameManager : Singleton<<<GameManager></GameManager>> { }
+> public class GameManager : `Singleton<GameManager>` { }
 
 Then call it easily from anywhere:
 
@@ -29,7 +29,7 @@ To persist the instance across scenes, override ShouldPersist:
 For pure C# (non-MonoBehaviour) singletons:
 Use PureSingleton<T>, like this:
 
-> public class ConfigManager : PureSingleton<ConfigManager> { }
+> public class ConfigManager : `PureSingleton<ConfigManager>` { }
 
 
 Just a guy making games.
